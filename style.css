@@ -66,7 +66,7 @@ body.active {
 }
 
 .menu {
-  padding-right: 24px;
+  padding-right: 50px;
 }
 
 .logo:hover {
@@ -135,7 +135,7 @@ body.active {
 .linkedin1 {
   width: 36px;
   height: 35px;
-  background: url(images/sprite.png) -35px 0;
+  background: url(images/sprite.png) -37px 0;
   margin-left: 10px;
 }
 
@@ -199,21 +199,10 @@ body.active {
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-
-  /* background-color: #2196F3; */
-
-  /* padding: 10px; */
   width: 100%;
-
-  /* margin: 10px; */
   padding: 12px 24px;
   background: #e5e5e5;
 }
-
-/* .row {
-  width: 100%;
-  padding: 12px 24px;
-} */
 
 .grid-item {
   margin: -5px -8px;
@@ -499,6 +488,13 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e5e5e5;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
   .background1 {
     background-image: url("images/desktop-background.png");
     background-repeat: no-repeat;
@@ -535,6 +531,13 @@ textarea {
     padding: 235px 260px 2px 260px;
   }
 
+  .github1 {
+    width: 36px;
+    height: 35px;
+    background: url(images/sprite.png) -105px 0;
+    margin-left: -6px;
+  }
+
   .customise2 {
     font-size: 16px;
     line-height: 28px;
@@ -559,6 +562,10 @@ textarea {
     margin-bottom: 12px;
   }
 
+  #hand {
+    position: 180px 100px;
+  }
+
   .onerow {
     display: flex;
     list-style-type: none;
@@ -572,6 +579,7 @@ textarea {
 
   .card1 {
     display: flex;
+    justify-content: space-around;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #fff;
     border: 1px solid #dfe1e6;
@@ -681,7 +689,7 @@ textarea {
   }
 
   .js {
-    width: 100%;
+    width: 625px;
     height: 66.72px;
     border-radius: 8px;
     display: flex;
@@ -793,8 +801,8 @@ textarea {
   }
 
   .languages2 {
-    padding: 24px 36px 6px 24px;
-    width: 606px;
+    padding: 24px 36px 6px 0;
+    width: 640px;
     display: flex;
     justify-content: space-between;
     font-size: 20px;
@@ -815,9 +823,9 @@ textarea {
     color: #000;
   }
 
-  .arrow {
+  /* .arrow {
     padding-left: 130px;
-  }
+  } */
 
   .arrow1 {
     padding-left: 188px;
