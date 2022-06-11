@@ -508,6 +508,16 @@ textarea {
     border-radius: 0 0 0 1px;
   }
 
+  .logo {
+    transition: font-size 2s;
+  }
+
+  .logo:hover {
+    width: 300px;
+    font-size: 50px;
+  }
+
+
   .navbar1 {
     background-color: white;
     color: #6070ff;
