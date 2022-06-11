@@ -286,6 +286,7 @@ body.active {
 .button:hover {
   background-color: #6070ff;
   color: white;
+  padding: 20px 20px;
 }
 
 .button4 {
