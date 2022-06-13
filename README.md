@@ -5,6 +5,10 @@ This is a portfolio webpage designe choosing from the figma templates, where i u
 * CSS
 * Git
 
+## Live Demo 
+
+[Live Demo]([absolute link](https://amanulla.github.io/portfolio-desktop/))
+
 ## Getting Started
 
 To get a local copy up and running, follow these simple example steps.
