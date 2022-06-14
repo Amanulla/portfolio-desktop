@@ -1,0 +1,9 @@
+Page titles - 
+Image text alternatives** (<img alt="alt text">)- 
+Text headings  - 
+Color contrast - 
+Resize  - 
+Interaction  - 
+Moving content - 
+Multimedia - 
+The basic structure of the page - 
