@@ -24,7 +24,7 @@ From the terminal, follow the following procedure:
 * Clone the repostory into your local machine
 use the command git clone
 * Navigate into the repostory with the command below
-cd portfolio
+cd portfolio-desktop
 
 ## Authors
 
