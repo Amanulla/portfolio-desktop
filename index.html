@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="hamburger.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
@@ -21,19 +22,16 @@
 
 <body>
   <div class="background background1">
-    <header class="navbar navbar1">
-      <div class="logo">
-        <a href="#">Aman</a>
-      </div>
-      <nav class="nav1">
-        <a href="#portfolio"><b>Portfolio</b></a>
-        <a href="#about"><b>About</b></a>
-        <a href="#contact"><b>Contact</b></a>
-      </nav>
-      <div class="menu">
-        <a href="#"><i class="fa fa-bars"></i></a>
-      </div>
-    </header>
+    <nav class="navbar">
+      <div class="logo"><h2>Aman</h2></div>
+      <div class="openMenu"><i class="fa fa-bars"></i></div>
+      <ul class="mainMenu">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="closeMenu"><img src="images/cross.png" alt="close button"> </li>
+      </ul>
+    </nav>
     <div>
       <h1 class="bold heading">I'm Amanulla <br>Glad to see you!</h1>
       <p class="customise customise2">I’m a software developer! I can help you build a product , feature or website Look through
@@ -256,11 +254,6 @@
         <h3 class="letsconnect">LET'S CONNECT</h3>
         <div class="social-media">
           <ul class="onerow1">
-            <!-- <li><a href="https://github.com/"><i class="fa-brands fa-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            <li><a href="https://angel.co/"><i class="fa-brands fa-angellist"></i></a></li>
-            <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="https://medium.com/"><i class="fa-brands fa-medium"></i></a></li> -->
             <li><a href="https://github.com/"><img class="github1" src="images/img_trans.gif" width="1" height="1"
               alt="github-image"></a></li>
         <li><a href="https://www.linkedin.com/"><img class="linkedin1" src="images/img_trans.gif" width="1" height="1"
@@ -393,6 +386,7 @@
       </div>
     </section>
   </footer>
+  <script src="app.js"></script>
 </body>
 
 </html>
